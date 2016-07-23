@@ -112,6 +112,22 @@
       - 56
       - 70
 
+  - name: Install composer
+    get_url: url=https://getcomposer.org/composer.phar dest=/usr/local/bin/composer mode=755
+    when: magento_version == '2'
+
+  - name: Install nodejs repo
+    shell: curl --silent --location https://rpm.nodesource.com/setup_4.x | bash -
+    when: magento_version == '2'
+
+  - name: Install Nodejs
+    yum: name=nodejs state=present
+    when: magento_version == '2'
+
+  - name: Install grunt-cli
+    npm: name=grunt-cli global=yes
+    when: magento_version == '2'
+
   - name: Enable shell for apache user    
     user: name=apache shell=/bin/bash home=/var/www
 

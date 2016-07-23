@@ -1,8 +1,8 @@
 ## Supported tags and respective `Playbook` links
-### Production build
+#### Production
 * [`CentOS 6` (*centos-6.yml*)](https://github.com/locnh/ansible-magento/blob/master/centos-6.yml)
 
-### Sandbox build
+#### Sandbox
 * [`CentOS 6` (*centos-6.yml*)](https://github.com/locnh/ansible-magento/blob/develop/centos-6.yml)
 
 ## What is this ?
@@ -17,6 +17,12 @@ Run playbook and tell it what you need, for example the node is running `CentOS 
   ```
   $ ansible-playbook centos-6.yml
   ```
+
+## TODO
+- [x] CentOS 6
+- [ ] CentOS 7
+- [ ] Ubuntu LTS 14.04
+- [ ] Ubuntu LTS 16.04
 
 ## Contribute
 1. Fork me

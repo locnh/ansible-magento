@@ -2,7 +2,7 @@ upstream fastcgi_backend {
     server  127.0.0.1:9000;
 }
 
-{% if magento_version == 2 %}
+{% if magento_version == '2' %}
 server {
     listen 80 default_server;
     server_name _;

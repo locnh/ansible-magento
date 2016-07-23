@@ -291,7 +291,7 @@ UseCanonicalName Off
 #
 # DocumentRoot "/var/www/html"
 
-{% if magento_version == 2 %}
+{% if magento_version == '2' %}
 DocumentRoot "/var/www/html/pub"
 {% else %} 
 DocumentRoot "/var/www/html"
@@ -322,7 +322,7 @@ DocumentRoot "/var/www/html"
 #
 # <Directory "/var/www/html">
 
-{% if magento_version == 2 %}
+{% if magento_version == '2' %}
 <Directory "/var/www/html/pub">
 {% else %} 
 <Directory "/var/www/html">

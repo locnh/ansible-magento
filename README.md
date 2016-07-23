@@ -8,7 +8,7 @@
 ## What is this ?
 Ansible playbook for setting up environment for Magento, it will install server with NginX / Apache and PHP with compatible version and modules for Magento.
 
-Sandbox build for Magento 2.x (`2-dev`) comes with composer, nodejs, grunt.
+Sandbox build for `Magento 2` comes with composer, nodejs, grunt.
 
 ![Magento Logo](https://upload.wikimedia.org/wikipedia/en/c/c2/Magento_logo.png)
 

@@ -112,9 +112,6 @@
       - 56
       - 70
 
-  - name: Install composer
-    get_url: url=https://getcomposer.org/composer.phar dest=/usr/local/bin/composer mode=755
-
   - name: Enable shell for apache user    
     user: name=apache shell=/bin/bash home=/var/www
 

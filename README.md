@@ -15,12 +15,12 @@ Sandbox build for `Magento 2` comes with composer, nodejs, grunt.
 ## How to start
 Run playbook and tell it what you need, for example the node is running `CentOS 6`:
   ```
-  $ ansible-playbook centos-6.yml
+  $ ansible-playbook centos.yml
   ```
 
 ## TODO
 - [x] CentOS 6
-- [ ] CentOS 7
+- [x] CentOS 7
 - [ ] Ubuntu LTS 14.04
 - [ ] Ubuntu LTS 16.04
 

@@ -10,7 +10,7 @@ Ansible playbook for setting up environment for Magento, it will install server 
 
 Sandbox build for `Magento 2` comes with composer, nodejs, grunt.
 
-![Magento Logo](https://upload.wikimedia.org/wikipedia/en/c/c2/Magento_logo.png)
+![Magento Logo](http://www.elevateweb.co.uk/wp-content/themes/porto/assets/img/headers/mage-logo.png)
 
 ## How to start
 Run playbook and tell it what you need, for example the node is running `CentOS 6`:

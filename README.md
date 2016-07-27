@@ -1,9 +1,9 @@
 ## Supported tags and respective `Playbook` links
 #### Production
-* [`CentOS 6` (*centos-6.yml*)](https://github.com/locnh/ansible-magento/blob/master/centos-6.yml)
+* [`CentOS` (*centos.yml*)](https://github.com/locnh/ansible-magento/blob/master/centos.yml)
 
 #### Sandbox
-* [`CentOS 6` (*centos-6.yml*)](https://github.com/locnh/ansible-magento/blob/develop/centos-6.yml)
+* [`CentOS` (*centos.yml*)](https://github.com/locnh/ansible-magento/blob/develop/centos.yml)
 
 ## What is this ?
 Ansible playbook for setting up environment for Magento, it will install server with NginX / Apache and PHP with compatible version and modules for Magento.

@@ -238,7 +238,7 @@
       - nginx
       - httpd
     tags:
-      - service-status 
+      - service-status
 
   - name: Enable services auto-start
     service: name={{ item }} state=restarted enabled=yes
@@ -248,7 +248,7 @@
       - supervisord
       - redis
     tags:
-      - service-status       
+      - service-status
 
 
   handlers:
